@@ -15,4 +15,4 @@ In fase di testing, si sceglie l'immagine il cui logit è il più grande (tra le
 
 
 Proposta 3 (Advanced):
-Diffusion model
+Fusion model
