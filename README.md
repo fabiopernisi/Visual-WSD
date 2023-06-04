@@ -1,7 +1,3 @@
 # Visual-WSD
-Proposta:
-Creare un vettore per il testo e un vettore per ogni immagine. 
-Implementare una rete che prenda come input la concatenazione del vettore testo con il vettore di ognuna delle 10 immagini e che dia come output 1
-se il vettore di testo e il vettore dell'immagine rappresentano lo stesso contenuto, 0 altrimenti.
-In fase di testing, si sceglie l'immagine il cui logit è il più grande (tra le 10 immagini disponibili).
+This repository contains the code for our (Elettra Favazza, Alan Picucci, Lorenzo Tarricone and yours truly) solution to the [Task 1 of the 17th international workshop about Semantic Evaluation (SemEval-2023)](https://raganato.github.io/vwsd/), which consists in the following: given a potentially ambiguous word in a limited textual context, we aim to develop a deep learning model capable of selecting the most suitable image, from a set of 10 candidate images, that corresponds to the intended meaning of the target word.
 
